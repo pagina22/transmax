@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(80, 255, 255);
+}
+
+h1{
+    color: rgb(15, 137, 236);
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+p{
+    color: rgb(0, 255, 221);
+    font-size: 20px;
+    
+}
+button{
+    background-color: rgb(30, 42, 210);
+    padding: 15px 55px;
+    margin: 15px;
+    color: rgba(25, 240, 211, 0.651);
+    font-size: 15px;
+    border: 7px solid rgb(10, 242, 250);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover{
+background-color: transparent;
+border-radius: 20px;
+transition: 0.1;
+/*transform: rotate(-360deg);  rotación del boton"Posible aplicacion en otras sircustancias"*/
+
+}
+
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+    padding: 50px 0;
+    background:url("../Img/descarga.jpg");
+    background-size: cover;
+    
+}
